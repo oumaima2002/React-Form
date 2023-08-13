@@ -1,0 +1,90 @@
+.lab{
+    position: relative;
+    background-color: aqua;
+    width: 100px;
+    height: 100px;
+    margin-left: 75%;
+    top: 0%;
+    transform-style: preserve-3d;
+    animation:animate 7s linear infinite;
+    border-radius: 90px;
+    border-style: outset;
+    border-block-width: 15px;
+    border-block-color:rgb(204, 6, 151);
+}
+@keyframes animate{
+    0%
+    {
+        transform: rotateX(-30deg) rotateY(0deg);
+    }
+    100%{
+        transform: rotateX(-30deg) rotateY(360deg);
+    }
+}
+.lab2{
+    background-color: rgb(24, 14, 168);
+    width: 100px;
+    height: 100px;
+    margin-left: 10%;
+    transform-style: preserve-3d;
+    animation:animate 7s linear infinite;
+    border-radius: 90px;
+    border-style: outset;
+    border-block-width: 15px;
+    border-block-color:rgb(31, 232, 61);
+}
+@keyframes animate{
+    0%
+    {
+        transform: rotateX(-80deg) rotateY(40deg);
+    }
+    100%{
+        transform: rotateX(-30deg) rotateY(360deg);
+    }
+}
+.lab3{
+    background-color: red;
+    width: 100px;
+    height: 100px;
+    margin-left: 80%;
+    margin-right: 10%;
+    bottom: 0%;
+    top: 0%;
+    transform-style: preserve-3d;
+    animation:animate 7s linear infinite;
+    border-radius: 90px;
+    border-style: outset;
+    border-block-width: 15px;
+    border-block-color:rgb(67, 205, 233);
+
+}
+@keyframes animate{
+    0%
+    {
+        transform: rotateX(-30deg) rotateY(0deg);
+    }
+    100%{
+        transform: rotateX(-30deg) rotateY(360deg);
+    }
+}
+.lab4{
+    background-color: yellow;
+    width: 100px;
+    height: 100px;
+    margin: 4%;
+    transform-style: preserve-3d;
+    animation:animate 7s linear infinite;
+    border-radius: 90px;
+    border-style: outset;
+    border-block-width: 15px;
+    border-block-color:rgba(229, 192, 8, 0.87);
+}
+@keyframes animate{
+    0%
+    {
+        transform: rotateX(-30deg) rotateY(0deg);
+    }
+    100%{
+        transform: rotateX(-30deg) rotateY(360deg);
+    }
+}
